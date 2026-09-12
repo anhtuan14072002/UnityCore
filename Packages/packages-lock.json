@@ -1,5 +1,19 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "ceac8d6946b1125fe782cd171fbcb245b567dbf9"
+    },
+    "com.kyrylokuzyk.primetween": {
+      "version": "1.4.11",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://registry.npmjs.org"
+    },
     "com.tuna.comon": {
       "version": "file:../../Core/com.tuna.comon",
       "depth": 0,
@@ -26,6 +40,12 @@
     },
     "com.tuna.data": {
       "version": "file:../../Core/com.tuna.data",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "com.tuna.framework": {
+      "version": "file:../../Core/com.tuna.framework",
       "depth": 0,
       "source": "local",
       "dependencies": {}
