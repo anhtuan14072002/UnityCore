@@ -45,10 +45,11 @@
       "dependencies": {}
     },
     "com.tuna.framework": {
-      "version": "file:../../Core/com.tuna.framework",
+      "version": "https://github.com/anhtuan14072002/Core.git?path=/com.tuna.framework",
       "depth": 0,
-      "source": "local",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "8ee0bd39b13b472698bad2aaaa313a351601dd0b"
     },
     "com.tuna.package-installer": {
       "version": "file:../../Core/com.tuna.package-installer",
