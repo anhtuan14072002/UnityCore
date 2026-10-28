@@ -14,14 +14,8 @@
       "dependencies": {},
       "url": "https://registry.npmjs.org"
     },
-    "com.tuna.comon": {
-      "version": "file:../../Core/com.tuna.comon",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {}
-    },
-    "com.tuna.config": {
-      "version": "file:../../Core/com.tuna.config",
+    "com.tuna.haptics": {
+      "version": "file:../../Core/com.tuna.haptics",
       "depth": 0,
       "source": "local",
       "dependencies": {}
@@ -30,26 +24,21 @@
       "version": "file:../../Core/com.tuna.core",
       "depth": 0,
       "source": "local",
-      "dependencies": {}
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
     },
-    "com.tuna.custom": {
-      "version": "file:../../Core/com.tuna.custom",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {}
-    },
-    "com.tuna.data": {
-      "version": "file:../../Core/com.tuna.data",
+    "com.tuna.save": {
+      "version": "file:../../Core/com.tuna.save",
       "depth": 0,
       "source": "local",
       "dependencies": {}
     },
     "com.tuna.framework": {
-      "version": "https://github.com/anhtuan14072002/Core.git?path=/com.tuna.framework",
+      "version": "file:../../Core/com.tuna.framework",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "8ee0bd39b13b472698bad2aaaa313a351601dd0b"
+      "source": "local",
+      "dependencies": {}
     },
     "com.tuna.package-installer": {
       "version": "file:../../Core/com.tuna.package-installer",
